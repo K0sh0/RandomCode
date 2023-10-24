@@ -8,7 +8,7 @@ import gspread
 
 # Load the google spreadsheet
 gs = gspread.service_account(filename='credentials.json')
-sh = gs.open_by_key('1C0IDZGyJo_PnXaBy-6nnF_yKLpAWV4TjzfpyyXpxh3w')
+sh = gs.open_by_key('[Google Sheets API Key]')
 worksheet = sh.sheet1
 
 # Fetch the HTML content from the webpage
